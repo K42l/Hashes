@@ -1,10 +1,9 @@
-﻿using Crypt.Project.Model;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
 namespace Crypt.Project.PasswordHashes
 {
-    public class Pbkdf2
+    public class Pbkdf2Hashing
     {
         /// <summary>
         /// The default number of Iterations
