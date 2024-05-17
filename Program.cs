@@ -11,3 +11,20 @@
 //Console.WriteLine("Is Equal?: " + verify);
 //
 //return 0;
+
+
+using Crypt.Project.Hahses;
+
+
+Md5Hash md5Hash = new Md5Hash();
+
+var teste = "A-1-151515-0";
+
+var hash = md5Hash.CreateHashFromString(teste);
+
+
+Console.Write(hash);
+Console.WriteLine(hash.Length);
+
+
+return 0;
